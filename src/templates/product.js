@@ -9,6 +9,7 @@ const Product = ({ pageContext }) => (
       style={{ float: "left", marginRight: "1rem", width: 150 }}
     />
     <p>{pageContext.price}</p>
+    <h2>O mergim u ndryshu edhe live</h2>
     <div dangerouslySetInnerHTML={{ __html: pageContext.description }} />
   </div>
 )

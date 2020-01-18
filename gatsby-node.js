@@ -16,6 +16,7 @@ exports.createPages = ({ actions: { createPage } }) => {
         description: product.description,
         image: product.image,
         price: product.price,
+        postedBy: product.postedBy ? product.postedBy : 'Nuk u gjet'
       },
     })
   })

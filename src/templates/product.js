@@ -10,6 +10,7 @@ const Product = ({ pageContext }) => (
     />
     <p>{pageContext.price}</p>
     <h2>O mergim u ndryshu edhe live</h2>
+    <h2>Posted by {pageContext.postedBy}</h2>
     <div dangerouslySetInnerHTML={{ __html: pageContext.description }} />
   </div>
 )

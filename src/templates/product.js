@@ -9,7 +9,7 @@ const Product = ({ pageContext }) => (
       style={{ float: "left", marginRight: "1rem", width: 150 }}
     />
     <p>{pageContext.price}</p>
-    <h2>O mergim u ndryshu edhe live, edhe me Teuten {'<3'}</h2>
+    <h2>O mergim u ndryshu edhe live, test me Teute loqken, e du shumeeeeeeeeee</h2>
     <h2>Posted by {pageContext.postedBy}</h2>
     <h2>Date of post:  {pageContext.date}</h2>
     <div dangerouslySetInnerHTML={{ __html: pageContext.description }} />
